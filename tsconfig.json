@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": false
+  },
+  "include" : [
+    "./src/**/*"
+  ],
+  "filesGlob": [
+    "./src/templates/*.hbs"
+  ],
+  "exclude" : [
+    "./dist",
+    "./node_modules"
+  ]
+}
