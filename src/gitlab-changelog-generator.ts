@@ -21,7 +21,7 @@ let config: ConfigInterface = {
         url: options.url
     },
     projectId: options.projectId,
-    destFile: options.destFile,
+    destFile: `${process.cwd()}/${options.destFile}`,
     logLevel: logLevel
 };
 

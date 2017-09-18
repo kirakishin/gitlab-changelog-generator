@@ -1,7 +1,7 @@
 {
   "name": "gitlab-changelog-generator",
   "description": "generate a changelog based on Gitlab milestones",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "MIT",
   "keywords": [
     "gitlab",
@@ -20,7 +20,7 @@
   "private": false,
   "dependencies": {
     "fs": "0.0.1-security",
-    "gitlab-kirakishin": "~2.0.0",
+    "gitlab-kirakishin": "~2.0.1",
     "handlebars": "~4.0.10",
     "minimist": "~1.2.0",
     "path": "~0.12.7",

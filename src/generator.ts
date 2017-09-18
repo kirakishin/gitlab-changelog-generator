@@ -80,7 +80,7 @@ export class Generator implements GeneratorInterface {
         let content = generator(changelogData);
 
         try {
-            writeFileSync(path.resolve(__dirname, file), content, 'utf-8');
+            writeFileSync(path.resolve(file), content, 'utf-8');
             this.logger.info(`changelog saved in file: ${file}`);
         } catch (e) {
             this.logger.error(`fail to save in file: ${file}`, e);
