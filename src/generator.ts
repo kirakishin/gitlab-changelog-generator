@@ -17,7 +17,7 @@ export class Generator implements GeneratorInterface {
     private gitlabApi: any;
 
     constructor(private config: ConfigInterface, private template: string) {
-        this.gitlabApi = require('gitlab')(config.gitlab);
+        this.gitlabApi = require('gitlab-kirakishin')(config.gitlab);
         this.logger.info('generator initialized');
     }
 
