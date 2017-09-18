@@ -156,7 +156,7 @@ export class Generator implements GeneratorInterface {
 
     private awaitMilestoneMergeRequests(milestoneId: string): AsyncSubject<any> {
         return this.toObservable(
-            this.gitlabApi.projects.milestones.showMergeRequests.bind(null, this.config.projectId, milestoneId)
+            this.gitlabApi.projects.milestones.allMergeRequests.bind(null, this.config.projectId, milestoneId)
         );
     }
 

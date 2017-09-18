@@ -1,7 +1,7 @@
 {
   "name": "gitlab-changelog-generator",
   "description": "generate a changelog based on Gitlab milestones",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "keywords": [
     "gitlab",
