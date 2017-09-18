@@ -1,7 +1,7 @@
 {
   "name": "gitlab-changelog-generator",
   "description": "generate a changelog based on Gitlab milestones",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "keywords": [
     "gitlab",
@@ -10,8 +10,8 @@
     "milestone"
   ],
   "author": "",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/gitlab-changelog-generator.js",
+  "types": "dist/gitlab-changelog-generator.d.ts",
   "scripts": {
     "prepublish": "npm run build",
     "build": "tsc",
@@ -20,11 +20,11 @@
   "private": false,
   "dependencies": {
     "fs": "0.0.1-security",
-    "gitlab-kirakishin": "^1.8.0",
-    "handlebars": "^4.0.10",
-    "minimist": "^1.2.0",
-    "path": "^0.12.7",
-    "rxjs": "^5.1.0"
+    "gitlab-kirakishin": "~2.0.0",
+    "handlebars": "~4.0.10",
+    "minimist": "~1.2.0",
+    "path": "~0.12.7",
+    "rxjs": "~5.1.0"
   },
   "devDependencies": {
     "@types/jasmine": "~2.5.53",
