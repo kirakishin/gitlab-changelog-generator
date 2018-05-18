@@ -10,6 +10,7 @@
     "milestone"
   ],
   "author": "",
+  "bin": "dist/gitlab-changelog-generator.js",
   "main": "dist/gitlab-changelog-generator.js",
   "types": "dist/gitlab-changelog-generator.d.ts",
   "scripts": {
